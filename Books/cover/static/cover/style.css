@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e8dfd2;
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.book-cover {
+    width: 550px;
+    min-height: 750px;
+    padding: 45px;
+    background: linear-gradient(
+        135deg,
+        #193b35,
+        #32675a,
+        #b4a078
+    );
+    color: white;
+    border: 8px solid #d6b77a;
+    box-shadow: 0 10px 30px #555;
+}
+
+.top {
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 2px solid #d6b77a;
+}
+
+.top h1 {
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #f5d99b;
+}
+
+.top h3 {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.description {
+    padding: 45px 10px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.description h2 {
+    text-align: center;
+    color: #ffe0a0;
+    margin-bottom: 25px;
+}
+
+.description p {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.bottom {
+    border-top: 2px solid #d6b77a;
+    padding-top: 25px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.bottom h3 {
+    color: #f5d99b;
+}
+
+.bottom h2 {
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
